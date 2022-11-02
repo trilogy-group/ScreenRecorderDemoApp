@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(v -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://trilogy-group.github.io"));
+                    Uri.parse("https://trilogy-group.github.io/ScreenRecorderDemo/index.html"));
             startActivity(browserIntent);
         });
         // ATTENTION: This was auto-generated to handle app links.
